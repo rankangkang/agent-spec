@@ -1,7 +1,16 @@
 # Skills（技能）
 
-此目录定义 Agent 可以使用的特定能力、工具定义和函数模式。
+此目录存放可复用技能（Skill）的定义与资源文件。
 
-## 使用方式
+推荐结构：
 
-在此添加工具/技能的 JSON 或 YAML 定义。
+```text
+skills/
+  <skill-name>/
+    SKILL.md
+    scripts/
+    references/
+    assets/
+```
+
+- **示例**：本仓库已提供 `git-worktree-workflow`，位于 `skills/git-worktree-workflow/`。
